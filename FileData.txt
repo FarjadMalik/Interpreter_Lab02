@@ -1,0 +1,9 @@
+print "Hello"
+Let x = 1
+Let y = x
+x = 3 + y + 6
+
+
+# this is a comment
+print y
+print x

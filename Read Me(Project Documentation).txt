@@ -1,0 +1,23 @@
+Created By :  Muhammad Farjad Malik
+			  02694
+			  BSCS - 2A
+
+Dated : 26-02-2015
+
+
+Advanced Programming Lab 02 - Interpreter in Java
+Reads a file named FileData from the root directory of the project and interprets it line by line. 
+Four type of lines are supported.
+1) Starting from let in which it declares a new variable and adds it to the arraylist. you can also assign a variable to an already existing variable.
+2) Starting from # which it refers to as the comment and ignores
+3) Containing a = character after a variable in which it evaluates the expression by post fix  and stores the result in the variable. Multiple operations are supported with precedence.
+4) Starting from print in which it prints either a single variable or a double qouted string
+
+
+Extra: It can also ignore the empty lines inside the code
+
+NOTE : eeverything in the file should be space separated. EVERYTHING.
+
+Error handling: It gives a syntax error if above conditions are not met and also displays the line number of the syntax error
+
+PS : I am only doing this for the type int for now.		
